@@ -1,0 +1,21 @@
+div.calculadora {
+    background: yellow;
+    border: 1.5px solid green;
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+button {
+    font-size: 180%;
+    border-radius: 9px;
+}
+
+input {
+    grid-column: 1/5;
+    text-align: right;
+    text-indent: 50;
+    font-size: 200%;
+}
